@@ -1,0 +1,13 @@
+*, *:before, *:after{ 				/*Lifesaver*/
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	background: url(images/logoish.png) no-repeat top center fixed;   /*Will this work well?*/
+}
+
+span{ 				/*Intended for "kinda"*/
+	font-size: 80%;	/*Is supposed to be a little smaller than it's parent*/
+}
